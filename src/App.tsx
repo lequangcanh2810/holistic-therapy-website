@@ -19,7 +19,7 @@ import imgReflexology from "@/imports/Responsive/1fe080bdce390d1a1b81bbba6ac05be
 import imgFooterBg from "@/imports/Responsive/f31be86b017d3e040e23d59d6ce2f3d31db92341.png"
 import imgLogo2 from "@/imports/Responsive/a8f435cbbd13608f551dbb7ec8face70a58ad464.png"
 
-const BOOKING = "https://booking.mangomint.com/249421"
+const BOOKING = "https://www.google.com/"
 
 /* ─── SVG icons ─────────────────────────────────────────── */
 
