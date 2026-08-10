@@ -1,0 +1,11 @@
+{
+  "title": "Holistic Therapy Massage",
+  "description": "This responsive web application showcases client testimonials in a carousel format, features a structured dropdown menu, and facilitates easy scheduling, all while adhering to a strict design system.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
