@@ -140,7 +140,7 @@ const services = [
   },
   {
     name: "Prenatal",
-    price: "From $65 / 60 mins",
+    price: "From $60 / 60 mins",
     img: imgPrenatal,
     content: (
       <p className="text-[#333] text-[18px] leading-[25px]">
@@ -394,7 +394,7 @@ export default function App() {
               className="text-white text-[18px] leading-normal"
               style={{ fontWeight: 600 }}
             >
-              (734) 560 4445
+              <a href="tel:+17348859952" style={{textDecoration: "underline"}}>(734) 885 9952</a>
             </span>
           </div>
         </div>
@@ -430,7 +430,7 @@ export default function App() {
               className="text-[#eeb23b] text-[32px] text-center leading-normal w-full"
               style={{ fontWeight: 900 }}
             >
-              Personalized Care for Your Body, Mind, and Spirit.
+              Personalized Care for Your Body and Mind.
             </p>
             <a
               href={BOOKING}
@@ -683,7 +683,7 @@ export default function App() {
                     <PhoneIcon2 fill="#333" />
                     <span className="text-[#333] text-[21px] leading-[25px]" style={{ fontWeight: 700 }}>Phone Number:</span>
                   </div>
-                  <p className="text-[#333] text-[18px] leading-[25px]">(734) 560 4445</p>
+                  <p className="text-[#333] text-[18px] leading-[25px]"><a href="tel:+17348859952" style={{textDecoration: "underline"}}>(734) 885 9952</a></p>
                 </div>
               </div>
 
