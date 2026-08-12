@@ -520,7 +520,7 @@ export default function App() {
                 className="text-[#1e726f] text-[28px] text-center leading-[35px]"
                 style={{ fontWeight: 900 }}
               >
-                Our Services
+                Choose Your Treatment
               </p>
 
               {/* Accordion list */}
