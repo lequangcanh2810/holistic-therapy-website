@@ -465,7 +465,7 @@ export default function App() {
             </div>
 
             {/* Image collage — faithful to original grid layout */}
-            <div className="relative" style={{ height: "430px", width: "430px" }}>
+            <div className="relative" style={{ height: "430px", width: "100%" }}>
               {/* Large image — top-left, 269 × 326 */}
               <div
                 className="absolute bg-white rounded-[12px] overflow-hidden"
