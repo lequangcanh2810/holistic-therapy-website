@@ -402,11 +402,11 @@ export default function App() {
         {/* ══ LOGO BAR ══ */}
         {/* px-[60px] */}
         <div className="bg-[rgba(255,255,255,0.3)] flex items-center justify-center py-[16px] w-full">
-          <div className="h-[140px] w-[268px] relative">
+          <div className="h-auto max-w-[268px]">
             <img
               alt="Holistic Therapy Massage"
               src={imgFrame572}
-              className="absolute inset-0 w-full h-full object-cover overflow-visible"
+              className="display-block w-full h-auto object-contain"
             />
           </div>
         </div>
@@ -688,11 +688,11 @@ export default function App() {
               </div>
 
               {/* Logo */}
-              <div className="h-[238px] w-[268px] relative">
+              <div className="h-auto max-w-[268px]">
                 <img
                   alt="Holistic Therapy Massage"
                   src={imgLogo2}
-                  className="absolute inset-0 w-full h-full object-cover overflow-visible"
+                  className="display-block w-full h-auto object-contain"
                 />
               </div>
             </div>
