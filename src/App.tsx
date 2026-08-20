@@ -457,7 +457,7 @@ export default function App() {
             {/* Description */}
             <div className="flex flex-col gap-0 w-full">
               <p className="text-[#333] text-[18px] leading-[25px]">
-                Welcome to Holistic Therapy Massage, located in 33425 Grand River Ave, Farmington, 48335, Michigan. We are always to put efforts to combine Asia Massage therapy (traditional healing and bodywork techniques rooted in China, Japan, Thailand, India and Vietnam) with Western Massage therapy to offer the best therapeutic healing massage therapy that balancing the {"body's"} energy pathways to stimulate natural healing and alleviate pain to help you literally Relax, Refresh and Renew you body.
+                Welcome to Holistic Therapy Massage, located in Village Park, suite 120, building 100, 31800 northwestern hwy, Farmington hills, MI 48334. We are always to put efforts to combine Asia Massage therapy (traditional healing and bodywork techniques rooted in China, Japan, Thailand, India and Vietnam) with Western Massage therapy to offer the best therapeutic healing massage therapy that balancing the {"body's"} energy pathways to stimulate natural healing and alleviate pain to help you literally Relax, Refresh and Renew you body.
               </p>
               <p className="text-[#333] text-[18px] leading-[25px] mt-[25px]">
                 Our services are designed just for you, emphasize a personalized treatment plan {"that's"} tailored to meet you unique needs and preferences.
@@ -673,7 +673,7 @@ export default function App() {
                     <span className="text-[#333] text-[21px] leading-[25px]" style={{ fontWeight: 700 }}>Address:</span>
                   </div>
                   <p className="text-[#333] text-[18px] leading-[25px]">
-                    33425 Grand River Ave, Farmington, 48335, MI
+                    Village Park, suite 120, building 100, 31800 northwestern hwy, Farmington hills, MI 48334
                   </p>
                 </div>
 
