@@ -92,125 +92,125 @@ function ChevronIcon({ open }: { open: boolean }) {
 const services = [
   {
     name: "Swedish",
-    price: "From $60 / 60 mins",
+    price: "From $70 / 60 mins",
     img: imgSwedish,
     content: (
       <>
         <p className="text-[#333] text-[18px] leading-[25px]">
-          Swedish massage helps to relax your entire body. It reduces stress, relieves muscle tension, improves blood and lymph circulation, enhanced mood and promotes better sleep.
+          Helps relax the entire body, reduce stress, relieve muscle tension, improve blood and lymph circulation, enhance mood, and promote better sleep.
         </p>
         <p className="text-[#333] text-[18px] leading-[25px]">
-          It is perfect for beginners, people with muscle soreness, sensitiveness or anyone needing to relieve daily stress.
+          It is perfect for beginners, those with muscle soreness or sensitivity, or anyone needing to relieve daily stress.
         </p>
       </>
     ),
   },
   {
     name: "Deep Tissue",
-    price: "From $70 / 60 mins",
+    price: "From $80 / 60 mins",
     img: imgDeepTissue,
     content: (
       <>
         <p className="text-[#333] text-[18px] leading-[25px]">
-          {`As a "next-level" massage, deep tissue massage helps you with a specific problem like chronic pain or long-term pain, stiffness, limited movement, or an injury.`}
+          {`A next-level massage that targets specific problems such as chronic or long-term pain, stiffness, limited movement, or injury.`}
         </p>
         <p className="text-[#333] text-[18px] leading-[25px]">
-          If you are desk workers, drivers, students… dealing with chronic pains like neck, shoulder, lower back, arms, legs… and needing increased mobility, post-workout recovery, easing stress and curbing anxiety, {"let's"} schedule now.
+          If you are dealing with chronic pain in the neck, shoulders, lower back, arms, or legs, this treatment can help increase mobility, assist with post-workout recovery, ease stress, and curb anxiety.
         </p>
       </>
     ),
   },
   {
     name: "Lymphatic Drainage",
-    price: "From $65 / 60 mins",
+    price: "From $70 / 60 mins",
     img: imgLymphatic,
     content: (
       <>
         <p className="text-[#333] text-[18px] leading-[25px]">
-          Lymphatic Drainage massage is not for muscles. {"It's"} a gentle, rhythmic technique designed to reduce swelling and clear fluid waste from your body, improved lymphatic circulation and clearing toxins, inflammation and immune system support.
+          A gentle, rhythmic technique designed to reduce swelling and clear fluid waste from the body rather than targeting muscles. It improves lymphatic circulation, clears toxins, reduces inflammation, and supports the immune system.
         </p>
-        <p className="text-[#333] text-[18px] leading-[25px]">Good candidates for lymphatic massage treatment include:</p>
-        <ul className="list-disc pl-6 space-y-1">
+        <p className="text-[#333] text-[18px] leading-[25px]">Ideal candidates include individuals recovering from surgery, dealing with chronic swelling or water retention, managing lymphedema, seeking a detox, or active individuals looking for faster recovery.</p>
+        {/* <ul className="list-disc pl-6 space-y-1">
           {["People recovering from surgery (cosmetic or medical)", "Those dealing with chronic swelling, fatigue, or water retention", "Individuals with lymphedema", "Wellness-minded folks who want to support detox and circulation", "Athletes or active individuals seeking faster recovery"].map(b => (
             <li key={b} className="text-[#333] text-[18px] leading-[25px]">{b}</li>
           ))}
-        </ul>
+        </ul> */}
       </>
     ),
   },
   {
     name: "Prenatal",
-    price: "From $60 / 60 mins",
+    price: "From $80 / 60 mins",
     img: imgPrenatal,
     content: (
       <p className="text-[#333] text-[18px] leading-[25px]">
-        Prenatal massage focuses on relieving common pregnancy discomforts like lower back pain, swollen joints, muscle tension, and anxiety.
+        Focuses on relieving common pregnancy discomforts, including lower back pain, swollen joints, muscle tension, and anxiety.
       </p>
     ),
   },
   {
     name: "Traditional Thai",
-    price: "From $75 / 60 mins",
+    price: "From $80 / 60 mins",
     img: imgThai,
     content: (
       <p className="text-[#333] text-[18px] leading-[25px]">
-        Thai massage is ideal for active individuals, athletes, and desk workers. Because it combines assisted stretching, acupressure, and yoga-like poses, it is highly beneficial for anyone looking to increase flexibility, improve posture, relieve chronic muscle tension, or reduce stress.
+        Ideal for active individuals, athletes, and desk workers. By combining assisted stretching, acupressure, and yoga-like poses, it helps increase flexibility, improve posture, relieve chronic muscle tension, and reduce stress.
       </p>
     ),
   },
   {
-    name: "Chinese Tuina",
-    price: "From $70 / 60 mins",
+    name: "Acupressure / Chinese Tuina",
+    price: "From $80 / 60 mins",
     img: imgTuina,
     content: (
       <>
-        <p className="text-[#333] text-[18px] leading-[25px]">
+        {/* <p className="text-[#333] text-[18px] leading-[25px]">
           Chinese tuina focuses on restoring the flow of energy (Qi) through meridian lines.
-        </p>
+        </p> */}
         <p className="text-[#333] text-[18px] leading-[25px]">
-          You are seeking a holistic treatment that combines pain relief with energetic rebalancing, or if you are dealing with general fatigue, poor circulation, and stress-related tension. Make an appointment with Chinese Tuina massage.
+          Focuses on restoring the flow of energy (Qi) through meridian lines. This is a holistic treatment that combines pain relief with energetic rebalancing, making it ideal for those dealing with general fatigue, poor circulation, and stress-related tension.
         </p>
       </>
     ),
   },
   {
     name: "Ashiatsu",
-    price: "From $70 / 60 mins",
+    price: "From $80 / 60 mins",
     img: imgAshiatsu,
     content: (
       <p className="text-[#333] text-[18px] leading-[25px]">
-        Ashiatsu or walking on the back with barefoot massage, it helps you reduce chronic pain and improve flexibility and reach deeper than deep tissue.
+        A barefoot massage technique where the therapist walks on the back, allowing for a deeper reach than standard deep tissue massage to reduce chronic pain and improve flexibility.
       </p>
     ),
   },
   {
     name: "Craniosacral Therapy",
-    price: "From $40 / 30 mins",
+    price: "From $50 / 30 mins",
     img: imgCraniosacral,
     content: (
       <>
         <p className="text-[#333] text-[18px] leading-[25px]">
-          {"Craniosacral therapy helps to release deep physical and emotional tension in the head, neck, and back. It's benefits including:"}
+          {"Helps release deep physical and emotional tension in the head, neck, and back. It provides benefits for headaches, migraines, chronic neck and back pain, fibromyalgia, temporomandibular joint (TMJ) disorders, stress, and anxiety."}
         </p>
-        <ul className="list-disc pl-6 space-y-1">
+        {/* <ul className="list-disc pl-6 space-y-1">
           {["Headaches and migraines", "Chronic neck and back pain", "Fibromyalgia", "Temporomandibular joint (TMJ) disorders", "Stress, anxiety, and insomnia"].map(b => (
             <li key={b} className="text-[#333] text-[18px] leading-[25px]">{b}</li>
           ))}
-        </ul>
+        </ul> */}
       </>
     ),
   },
   {
-    name: "Facial / Body Guasha",
-    price: "From $40 / 30 mins",
+    name: "Gua Sha (Facial / Body)",
+    price: "From $50 / 30 mins",
     img: imgGuasha,
     content: (
       <>
         <p className="text-[#333] text-[18px] leading-[25px]">
-          {`Guasha is a muscle scraping technique rooted in traditional Chinese medicine, is called as "scraping away illness" or "scraping sand".`}
+          {`A muscle-scraping technique rooted in Traditional Chinese Medicine designed to clear tension.`}
         </p>
-        <p className="text-[#333] text-[18px] leading-[25px]">Body Guasha: Used to treat chronic pain, inflammation, and tight muscles.</p>
-        <p className="text-[#333] text-[18px] leading-[25px]">Facial Guasha: Used primarily as a cosmetic and relaxation ritual, to promote lymphatic drainage and reduce puffiness.</p>
+        <p className="text-[#333] text-[18px] leading-[25px]">Body Gua Sha: Used to treat chronic pain, inflammation, and tight muscles.</p>
+        <p className="text-[#333] text-[18px] leading-[25px]">Facial Gua Sha: Used as a cosmetic and relaxation ritual to promote lymphatic drainage and reduce puffiness.</p>
       </>
     ),
   },
@@ -220,17 +220,17 @@ const services = [
     img: imgFireCupping,
     content: (
       <p className="text-[#333] text-[18px] leading-[25px]">
-        {`Fire cupping creates localized suction on the skin using heated glass cups to expand blood vessels, improve blood flow, and loosen tight connective tissues. This "reverse massage" used to relieve muscle tension and short-term musculoskeletal pain, increases range of motion.`}
+        {`Creates localized suction on the skin using heated glass cups to expand blood vessels, improve blood flow, and loosen tight connective tissues. This "reverse massage" is used to relieve muscle tension, alleviate short-term musculoskeletal pain, and increase range of motion.`}
       </p>
     ),
   },
   {
-    name: "Face/Foot Reflexology",
-    price: "From $25 / 20 mins",
+    name: "Face / Foot Reflexology",
+    price: "From $30 / 20 mins",
     img: imgReflexology,
     content: (
       <p className="text-[#333] text-[18px] leading-[25px]">
-        Reflexology is when pressure is applied to specific points of the foot, hand and face to release energy blockages, promote healing, and restore systemic balance.
+        Applies pressure to specific points on the feet, hands, and face to release energy blockages, promote healing, and restore systemic balance.
       </p>
     ),
   },
@@ -457,10 +457,10 @@ export default function App() {
             {/* Description */}
             <div className="flex flex-col gap-0 w-full">
               <p className="text-[#333] text-[18px] leading-[25px]">
-                Welcome to Holistic Therapy Massage, located in Village Park, suite 120, building 100, 31800 northwestern hwy, Farmington hills, MI 48334. We are always to put efforts to combine Asia Massage therapy (traditional healing and bodywork techniques rooted in China, Japan, Thailand, India and Vietnam) with Western Massage therapy to offer the best therapeutic healing massage therapy that balancing the {"body's"} energy pathways to stimulate natural healing and alleviate pain to help you literally Relax, Refresh and Renew you body.
+                Welcome to Holistic Therapy Massage, licensed massage therapist by Thu Miller, located in Village Park at building 100, suite 120, 31800 Northwestern Highway, Farmington Hills, MI 48334. I combine Eastern massage therapy techniques with Western practices to offer the ultimate therapeutic healing experience. My treatments are designed to balance the body's energy pathways, stimulate natural healing, alleviate pain, and help you renew.
               </p>
               <p className="text-[#333] text-[18px] leading-[25px] mt-[25px]">
-                Our services are designed just for you, emphasize a personalized treatment plan {"that's"} tailored to meet you unique needs and preferences.
+                The treatments focus on personalized treatment plans tailored to meet your unique needs and preferences.
               </p>
             </div>
 
@@ -673,7 +673,7 @@ export default function App() {
                     <span className="text-[#333] text-[21px] leading-[25px]" style={{ fontWeight: 700 }}>Address:</span>
                   </div>
                   <p className="text-[#333] text-[18px] leading-[25px]">
-                    Village Park, suite 120, building 100, 31800 northwestern hwy, Farmington hills, MI 48334
+                    Village Park at building 100, suite 120, 31800 Northwestern Highway, Farmington Hills, MI 48334.
                   </p>
                 </div>
 
