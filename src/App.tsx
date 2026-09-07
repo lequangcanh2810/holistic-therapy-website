@@ -19,7 +19,7 @@ import imgReflexology from "@/imports/Responsive/1fe080bdce390d1a1b81bbba6ac05be
 import imgFooterBg from "@/imports/Responsive/f31be86b017d3e040e23d59d6ce2f3d31db92341.png"
 import imgLogo2 from "@/imports/Responsive/a8f435cbbd13608f551dbb7ec8face70a58ad464.png"
 
-const BOOKING = "https://www.google.com/"
+const BOOKING = "https://www.fresha.com/book-now/holistic-therapy-massage-dh58ywsu/all-offer?share=true&pId=3047810"
 
 /* ─── SVG icons ─────────────────────────────────────────── */
 
@@ -234,6 +234,16 @@ const services = [
       </p>
     ),
   },
+  {
+    name: "Sports Therapy",
+    price: "From $30 / 20 mins",
+    img: imgReflexology,
+    content: (
+      <p className="text-[#333] text-[18px] leading-[25px]">
+        Applies pressure to specific points on the feet, hands, and face to release energy blockages, promote healing, and restore systemic balance.
+      </p>
+    ),
+  },
 ]
 
 /* ─── Testimonials ───────────────────────────────────────── */
@@ -313,7 +323,7 @@ function ServiceItem({
           </p>
 
           {/* Description */}
-          <div className="flex flex-col gap-[8px]">
+          <div className="flex flex-col gap-[8px] text-justify">
             {service.content}
           </div>
         </div>
@@ -385,7 +395,7 @@ export default function App() {
               className="text-white text-[18px] leading-normal"
               style={{ fontWeight: 600 }}
             >
-              Monday-Saturday: 10:00 AM - 07:00 PM
+              Monday-Saturday: 09:00 AM - 06:00 PM
             </span>
           </div>
           <div className="flex items-center gap-[8px]">
@@ -430,7 +440,7 @@ export default function App() {
               className="text-[#eeb23b] text-[32px] text-center leading-normal w-full"
               style={{ fontWeight: 900 }}
             >
-              Personalized Care for Your Body and Mind.
+              Take time to Relax and Refresh your mind and body.
             </p>
             <a
               href={BOOKING}
@@ -455,7 +465,7 @@ export default function App() {
             </div>
 
             {/* Description */}
-            <div className="flex flex-col gap-0 w-full">
+            <div className="flex flex-col gap-0 w-full text-justify">
               <p className="text-[#333] text-[18px] leading-[25px]">
                 Welcome to Holistic Therapy Massage, licensed massage therapist by Thu Miller, located in Village Park at building 100, suite 120, 31800 Northwestern Highway, Farmington Hills, MI 48334. I combine Eastern massage therapy techniques with Western practices to offer the ultimate therapeutic healing experience. My treatments are designed to balance the body's energy pathways, stimulate natural healing, alleviate pain, and help you renew.
               </p>
@@ -569,7 +579,7 @@ export default function App() {
                       >
                         {t.name}
                       </p>
-                      <p className="text-[#333] text-[18px] leading-[25px]" style={{ fontWeight: 400 }}>
+                      <p className="text-[#333] text-[18px] leading-[25px] text-justify" style={{ fontWeight: 400 }}>
                         {t.text}
                       </p>
                     </div>
@@ -661,7 +671,7 @@ export default function App() {
                     <span className="text-[#333] text-[21px] leading-[25px]" style={{ fontWeight: 700 }}>Working Hours:</span>
                   </div>
                   <ul className="list-disc pl-[27px] text-[#333] text-[18px] leading-[25px]">
-                    <li>Monday - Saturday: 10:00 AM - 07:00 PM</li>
+                    <li>Monday - Saturday: 09:00 AM - 06:00 PM</li>
                     <li>Sunday: OFF</li>
                   </ul>
                 </div>
