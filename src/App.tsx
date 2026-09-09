@@ -880,7 +880,7 @@ export default function App() {
                 By
               </p>
               <p className="text-[#969696] text-[16px] leading-normal text-center" style={{ fontWeight: 700 }}>
-                Miller Thu
+                Thu Miller
               </p>
               </div>
             </div>
