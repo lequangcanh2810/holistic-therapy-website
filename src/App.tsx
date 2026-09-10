@@ -874,19 +874,19 @@ export default function App() {
                   className="display-block w-full h-auto object-contain"
                 />
                 <p
-                  className="text-[#969696] text-[16px] leading-normal text-center"
+                  className="text-[#1e726f] text-[16px] leading-normal text-center"
                   style={{ fontWeight: 700 }}
                 >
                   Licensed massage therapist
                 </p>
                 <p
-                  className="text-[#969696] text-[16px] leading-normal text-center"
+                  className="text-[#1e726f] text-[16px] leading-normal text-center"
                   style={{ fontWeight: 700 }}
                 >
-                  By
+                  by
                 </p>
                 <p
-                  className="text-[#969696] text-[16px] leading-normal text-center"
+                  className="text-[#1e726f] text-[16px] leading-normal text-center"
                   style={{ fontWeight: 700 }}
                 >
                   Thu Miller
