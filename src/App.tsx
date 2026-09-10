@@ -349,7 +349,7 @@ const testimonials = [
   },
   {
     name: "Steven Jaboro",
-    text: `"I had an incredible massage with cupping, and it was hands down the best massage I've ever had. From the moment I walked in, I felt welcomed and comfortable. The therapist was professional, attentive, and really took the time to focus on the areas that needed the most work.The cupping therapy made a huge difference-it relieved so much tension, improved my mobility, and left me feeling completely refreshed. I walked out feeling better than I have in a long time. If you're looking for a massage that truly delivers results, I can't recommend this place enough. I'll definitely be coming back!"`,
+    text: `"I had an incredible massage with cupping, and it was hands down the best massage I've ever had.The cupping therapy made a huge difference-it relieved so much tension, improved my mobility, and left me feeling completely refreshed. I walked out feeling better than I have in a long time. If you're looking for a massage that truly delivers results, I can't recommend this place enough. I'll definitely be coming back!"`,
   },
   {
     name: "Olivia Harper",
@@ -538,10 +538,10 @@ export default function App() {
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-[21px] px-[24px]">
             <p
               className="text-[#eeb23b] text-[32px] text-center leading-normal w-full"
-              style={{ fontWeight: 900 }}
+              style={{ fontWeight: 900, lineHeight:"1.1" }}
             >
               Take time to <br></br>
-              Relax and Refresh <br></br>
+              <span style={{ fontFamily: "'Corinthia'", fontSize: "72px" }}>Refresh and Renew</span> <br></br>
               your mind and body.
             </p>
             <a
@@ -873,15 +873,24 @@ export default function App() {
                   src={imgLogo2}
                   className="display-block w-full h-auto object-contain"
                 />
-                <p className="text-[#969696] text-[16px] leading-normal text-center" style={{ fontWeight: 700 }}>
-                Licensed massage therapist
-              </p>
-              <p className="text-[#969696] text-[16px] leading-normal text-center" style={{ fontWeight: 700 }}>
-                By
-              </p>
-              <p className="text-[#969696] text-[16px] leading-normal text-center" style={{ fontWeight: 700 }}>
-                Thu Miller
-              </p>
+                <p
+                  className="text-[#969696] text-[16px] leading-normal text-center"
+                  style={{ fontWeight: 700 }}
+                >
+                  Licensed massage therapist
+                </p>
+                <p
+                  className="text-[#969696] text-[16px] leading-normal text-center"
+                  style={{ fontWeight: 700 }}
+                >
+                  By
+                </p>
+                <p
+                  className="text-[#969696] text-[16px] leading-normal text-center"
+                  style={{ fontWeight: 700 }}
+                >
+                  Thu Miller
+                </p>
               </div>
             </div>
           </div>
