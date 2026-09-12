@@ -541,7 +541,7 @@ export default function App() {
               style={{ fontWeight: 900, lineHeight:"1.1" }}
             >
               Take time to <br></br>
-              <span style={{ fontFamily: "'Corinthia'", fontSize: "72px" }}>Refresh and Renew</span> <br></br>
+              <span style={{ fontFamily: "'Corinthia', cursive", fontSize: "56px" }}>Refresh and Renew</span> <br></br>
               your mind and body.
             </p>
             <a

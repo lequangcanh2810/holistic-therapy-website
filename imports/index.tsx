@@ -1,20 +1,20 @@
 import svgPaths from "./svg-nvsh68vy67";
-import imgBg12 from "./b64f259876f5b0c70fecc4d55a0938d623cc591e.png";
-import imgFrame572 from "./79fa851bcdbd92c399109bfd2367fccc051bff93.png";
-import imgHolisticWellnessCenter from "./bf0f6ac9973737b6e0605331be09de12d9e8b801.png";
-import imgChatGptImage14280830Thg720261 from "./3e6472363a415a416746bb958db88b4e5695c01f.png";
-import imgChatGptImage15130830Thg720261 from "./215bfd5ac0424c92d8c0cce3d2367268d8e944ef.png";
-import imgChatGptImage14412030Thg720261 from "./3e0f941614a98337409c0559df7bead04f8f27d0.png";
-import imgChatGptImage14291730Thg720261 from "./346aa5f1114ac1200ecbdf3290c1cc69dd109fb9.png";
-import imgChatGptImage14262230Thg720261 from "./a6901639dc9fd0a6407c9d1d7cad343233593456.png";
-import imgChatGptImage14144630Thg720261 from "./6e9d7e97e8e8765d18786bbfd4f2668146d78ee3.png";
-import imgChatGptImage15432830Thg720261 from "./290ed4658140324a37df6a5f3f9656a61cd9e9f2.png";
-import imgChatGptImage15042630Thg720261 from "./a44255b26286d7369bea55400404fb6c6aff1723.png";
-import imgChatGptImage15080230Thg720261 from "./3ebf883e7fe9420debf6d98872d008b5fe3effdf.png";
-import imgChatGptImage15142530Thg720261 from "./eb62208e9986441e35b24180a69a223cc057fdd7.png";
-import imgChatGptImage15353630Thg720261 from "./1fe080bdce390d1a1b81bbba6ac05be6e9b1a0a5.png";
-import imgFooterImage from "./f31be86b017d3e040e23d59d6ce2f3d31db92341.png";
-import imgFrame161 from "./33846d6b13bdd746253fdc1e886bfaac35403b9a.png";
+import imgBg12 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgFrame572 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgHolisticWellnessCenter from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage14280830Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage15130830Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage14412030Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage14291730Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage14262230Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage14144630Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage15432830Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage15042630Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage15080230Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage15142530Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgChatGptImage15353630Thg720261 from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgFooterImage from "../src/imports/Responsive/svg-nvsh68vy67";
+import imgFrame161 from "../src/imports/Responsive/svg-nvsh68vy67";
 
 function CalendarSvgrepoCom() {
   return (
@@ -100,7 +100,7 @@ function Heading1() {
       <div className="flex flex-col items-center justify-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex flex-col items-center justify-center px-[60px] py-[16px] relative size-full">
           <div className="h-[140px] relative shrink-0 w-[268px]" data-name="Frame 57 2">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame572} />
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame572 as unknown as string} />
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@ function Frame19() {
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex h-[400px] items-center justify-center left-[calc(50%-133px)] top-1/2 w-[1450px]">
         <div className="-scale-y-100 flex-none rotate-180">
           <div className="h-[400px] relative w-[1450px]" data-name="holistic-wellness-center">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHolisticWellnessCenter} />
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHolisticWellnessCenter as unknown as string} />
           </div>
         </div>
       </div>
@@ -179,7 +179,7 @@ function Frame53() {
   return (
     <div className="bg-white col-1 h-[325.841px] ml-0 mt-0 overflow-clip relative rounded-[12px] row-1 w-[268.718px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[325.84px] left-[calc(50%+0.16px)] top-1/2 w-[273.04px]" data-name="ChatGPT Image 14_28_08 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14280830Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14280830Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -189,7 +189,7 @@ function Frame54() {
   return (
     <div className="bg-white col-1 h-[247.8px] ml-[129.53px] mt-[173.78px] overflow-clip relative rounded-[12px] row-1 w-[224.468px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[267.878px] left-[calc(50%+0.47px)] top-[calc(50%+0.26px)] w-[224.47px]" data-name="ChatGPT Image 15_13_08 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15130830Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15130830Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -273,7 +273,7 @@ function Frame52() {
       <div className="-translate-x-1/2 absolute flex h-[342px] items-center justify-center left-1/2 top-0 w-[265px]">
         <div className="flex-none rotate-90">
           <div className="h-[265px] relative w-[342px]" data-name="ChatGPT Image 14_41_20 30 thg 7, 2026 1">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14412030Thg720261} />
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14412030Thg720261 as unknown as string} />
           </div>
         </div>
       </div>
@@ -363,7 +363,7 @@ function Frame50() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 14_28_08 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14280830Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14280830Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -451,7 +451,7 @@ function Frame55() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 14_29_17 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14291730Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14291730Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -604,7 +604,7 @@ function Frame51() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 14_26_22 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14262230Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14262230Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -683,7 +683,7 @@ function Frame56() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 14_14_46 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14144630Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage14144630Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -762,7 +762,7 @@ function Frame57() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 15_43_28 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15432830Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15432830Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -850,7 +850,7 @@ function Frame58() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 15_04_26 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15042630Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15042630Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -929,7 +929,7 @@ function Frame59() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 15_08_02 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15080230Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15080230Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -1073,7 +1073,7 @@ function Frame60() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 15_13_08 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15130830Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15130830Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -1170,7 +1170,7 @@ function Frame61() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 15_14_25 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15142530Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={String(imgChatGptImage15142530Thg720261)} />
       </div>
     </div>
   );
@@ -1249,7 +1249,7 @@ function Frame62() {
   return (
     <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[310px] left-[calc(50%-10px)] overflow-clip rounded-[12px] top-[calc(50%-10px)] w-[265px]">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[316px] left-1/2 top-1/2 w-[265px]" data-name="ChatGPT Image 15_35_36 30 thg 7, 2026 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15353630Thg720261} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgChatGptImage15353630Thg720261 as unknown as string} />
       </div>
     </div>
   );
@@ -1474,7 +1474,7 @@ function FooterImage() {
       <div className="-scale-y-100 flex-none rotate-180">
         <div className="h-[587px] relative w-[1450px]" data-name="Footer Image">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-11.86%] w-full" src={imgFooterImage} />
+            <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-11.86%] w-full" src={imgFooterImage as unknown as string} />
           </div>
         </div>
       </div>
@@ -1683,7 +1683,7 @@ function OverlayContent1() {
     <div className="bg-[rgba(255,255,255,0.24)] content-stretch flex flex-col gap-[48px] items-center justify-center overflow-clip px-[24px] py-[48px] relative rounded-[24px] shrink-0 w-[402px]" data-name="Overlay Content">
       <FooterServices />
       <div className="h-[238px] relative shrink-0 w-[268px]" data-name="Frame 16 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame161} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame161 as unknown as string} />
       </div>
     </div>
   );
@@ -1770,7 +1770,7 @@ export default function Responsive() {
   return (
     <div className="bg-white relative size-full" data-name="Responsive">
       <div className="absolute h-[11630px] left-0 top-0 w-[1890px]" data-name="bg1 2">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBg12} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBg12 as unknown as string} />
       </div>
       <Frame32 />
     </div>
