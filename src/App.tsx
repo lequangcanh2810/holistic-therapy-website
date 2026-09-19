@@ -538,10 +538,15 @@ export default function App() {
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-[21px] px-[24px]">
             <p
               className="text-[#eeb23b] text-[32px] text-center leading-normal w-full"
-              style={{ fontWeight: 900, lineHeight:"1.1" }}
+              style={{ fontWeight: 900, lineHeight: "1.1" }}
             >
               Take time to <br></br>
-              <span style={{ fontFamily: "'Corinthia', cursive", fontSize: "56px" }}>Refresh and Renew</span> <br></br>
+              <span
+                style={{ fontFamily: "'Corinthia', cursive", fontSize: "56px" }}
+              >
+                Refresh and Renew
+              </span>{" "}
+              <br></br>
               your mind and body.
             </p>
             <a
@@ -595,62 +600,65 @@ export default function App() {
             </div>
 
             {/* Image collage — faithful to original grid layout */}
-            <div
-              className="relative"
-              style={{ height: "430px", width: "100%" }}
-            >
-              {/* Large image — top-left, 269 × 326 */}
+            <div className="flex justify-center w-full">
               <div
-                className="absolute bg-white rounded-[12px] overflow-hidden"
-                style={{ top: 0, left: 0, width: "269px", height: "326px" }}
+                className="relative"
+                style={{ height: "430px", width: "100%", maxWidth: "500px" }}
               >
-                <img
-                  alt="Massage therapy"
-                  src={imgAboutMain}
-                  className="absolute inset-0 w-full h-full object-cover"
+                {/* Large image — top-left, 269 × 326 */}
+                <div
+                  className="absolute bg-white rounded-[12px] overflow-hidden shadow-lg"
+                  style={{ top: 0, left: "58px", width: "269px", height: "326px" }}
+                >
+                  <img
+                    alt="Massage therapy"
+                    src={imgAboutMain}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
+
+                {/* Pink border box — offset from top-left of grid */}
+                <div
+                  className="absolute border-[3px] border-[#e83e93] rounded-[20px]"
+                  style={{
+                    top: "24%",
+                    left: "calc(24% + 58px)",
+                    width: "213px",
+                    height: "263px",
+                  }}
                 />
-              </div>
 
-              {/* Pink border box — offset from top-left of grid */}
-              <div
-                className="absolute border-[3px] border-[#e83e93] rounded-[20px]"
-                style={{
-                  top: "24%",
-                  left: "24%",
-                  width: "213px",
-                  height: "263px",
-                }}
-              />
-
-              {/* Blur glow */}
-              <div
-                className="absolute rounded-full"
-                style={{
-                  top: "147px",
-                  left: "103px",
-                  width: "168px",
-                  height: "186px",
-                  background: "rgba(177,135,63,0.23)",
-                  filter: "blur(50px)",
-                }}
-              />
-
-              {/* Second image — offset 130 × 174 */}
-              {/* top: "40%" */}
-              <div
-                className="absolute bg-white rounded-[12px] overflow-hidden"
-                style={{
-                  bottom: 0,
-                  left: "32%",
-                  width: "224px",
-                  height: "248px",
-                }}
-              >
-                <img
-                  alt="Relaxing massage session"
-                  src={imgAboutSecond}
-                  className="absolute inset-0 w-full h-full object-cover"
+                {/* Blur glow */}
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    top: "147px",
+                    left: "calc(103px + 58px)",
+                    width: "168px",
+                    height: "186px",
+                    background: "rgba(177,135,63,0.23)",
+                    filter: "blur(50px)",
+                  }}
                 />
+
+                {/* Second image — offset 130 × 174 */}
+                {/* top: "40%" */}
+                <div
+                  className="absolute bg-white rounded-[12px] overflow-hidden shadow-xl"
+                  style={{
+                    bottom: "20px",
+                    left: "calc(32% + 58px)",
+                    width: "224px",
+                    height: "248px",
+                    zIndex: 10,
+                  }}
+                >
+                  <img
+                    alt="Relaxing massage session"
+                    src={imgAboutSecond}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
