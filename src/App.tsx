@@ -600,7 +600,6 @@ export default function App() {
             </div>
 
             {/* Image collage — faithful to original grid layout */}
-            <div className="flex justify-center w-full">
               <div
                 className="relative"
                 style={{ height: "430px", width: "100%", maxWidth: "500px" }}
@@ -608,7 +607,7 @@ export default function App() {
                 {/* Large image — top-left, 269 × 326 */}
                 <div
                   className="absolute bg-white rounded-[12px] overflow-hidden shadow-lg"
-                  style={{ top: 0, left: "58px", width: "269px", height: "326px" }}
+                  style={{ top: 0, left: 0, width: "269px", height: "326px" }}
                 >
                   <img
                     alt="Massage therapy"
@@ -622,7 +621,7 @@ export default function App() {
                   className="absolute border-[3px] border-[#e83e93] rounded-[20px]"
                   style={{
                     top: "24%",
-                    left: "calc(24% + 58px)",
+                    left: "24%",
                     width: "213px",
                     height: "263px",
                   }}
@@ -633,7 +632,7 @@ export default function App() {
                   className="absolute rounded-full"
                   style={{
                     top: "147px",
-                    left: "calc(103px + 58px)",
+                    left: "103px",
                     width: "168px",
                     height: "186px",
                     background: "rgba(177,135,63,0.23)",
@@ -647,7 +646,7 @@ export default function App() {
                   className="absolute bg-white rounded-[12px] overflow-hidden shadow-xl"
                   style={{
                     bottom: "20px",
-                    left: "calc(32% + 58px)",
+                    left: "32%",
                     width: "224px",
                     height: "248px",
                     zIndex: 10,
@@ -660,7 +659,6 @@ export default function App() {
                   />
                 </div>
               </div>
-            </div>
           </div>
 
           {/* ══ OUR SERVICES ══ */}
