@@ -490,7 +490,7 @@ export default function App() {
               className="text-white text-[18px] leading-normal"
               style={{ fontWeight: 600 }}
             >
-              Monday-Saturday: 09:00 AM - 06:00 PM
+              Monday-Sunday: 09:00 AM - 06:00 PM
             </span>
           </div>
           <div className="flex items-center gap-[8px]">
@@ -827,10 +827,13 @@ export default function App() {
                       Working Hours:
                     </span>
                   </div>
-                  <ul className="list-disc pl-[27px] text-[#333] text-[18px] leading-[25px]">
-                    <li>Monday - Saturday: 09:00 AM - 06:00 PM</li>
+                  <p className="text-[#333] text-[18px] leading-[25px]">
+                    Monday - Sunday: 09:00 AM - 06:00 PM
+                  </p>
+                  {/* <ul className="list-disc pl-[27px] text-[#333] text-[18px] leading-[25px]">
+                    <li>Monday - Sunday: 09:00 AM - 06:00 PM</li>
                     <li>Sunday: OFF</li>
-                  </ul>
+                  </ul> */}
                 </div>
 
                 {/* Address */}
