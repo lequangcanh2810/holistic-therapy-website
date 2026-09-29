@@ -133,15 +133,17 @@ const services = [
     img: imgDeepTissue,
     content: (
       <>
-        <p className="text-[#333] text-[18px] leading-[25px]">
+        {/* <p className="text-[#333] text-[18px] leading-[25px]">
           {`A next-level massage that targets specific problems such as chronic or long-term pain, stiffness, limited movement, or injury.`}
-        </p>
+        </p> */}
         <p className="text-[#333] text-[18px] leading-[25px]">
           A next-level massage that targets specific problems such as chronic or
-          long-term pain, stiffness, limited movement, or injury. If you are
-          dealing with chronic pain in the neck, shoulders, lower back, arms, or
-          legs, this treatment can help increase mobility, assist with
-          post-workout recovery, ease stress, and curb anxiety.
+          long-term pain, stiffness, limited movement, or injury.
+        </p>
+        <p className="text-[#333] text-[18px] leading-[25px]">
+          If you are dealing with chronic pain in the neck, shoulders, lower
+          back, arms, or legs, this treatment can help increase mobility, assist
+          with post-workout recovery, ease stress, and curb anxiety.
         </p>
       </>
     ),
@@ -161,16 +163,22 @@ const services = [
           retention, managing lymphedema, seeking a detox, or active individuals
           looking for faster recovery.
         </p>
-        {/* <p className="text-[#333] text-[18px] leading-[25px]">
-          Ideal candidates include individuals recovering from surgery, dealing
-          with chronic swelling or water retention, managing lymphedema, seeking
-          a detox, or active individuals looking for faster recovery.
-        </p> */}
-        {/* <ul className="list-disc pl-6 space-y-1">
-          {["People recovering from surgery (cosmetic or medical)", "Those dealing with chronic swelling, fatigue, or water retention", "Individuals with lymphedema", "Wellness-minded folks who want to support detox and circulation", "Athletes or active individuals seeking faster recovery"].map(b => (
-            <li key={b} className="text-[#333] text-[18px] leading-[25px]">{b}</li>
+        <p className="text-[#333] text-[18px] leading-[25px]">
+          Benefits for Cancer Patients:
+        </p>
+        <ul className="list-disc pl-6 space-y-1">
+          {[
+            "Reduces swelling: Eases painful fluid buildup (lymphedema) in the arms, legs, or chest after surgery or radiation.",
+            "Relieves discomfort: Helps decrease post-operative pain, heaviness, and scar tissue tightness.",
+            "Calms the body: Relaxes the nervous system, reduces stress, and lowers anxiety and fatigue.",
+            // "Wellness-minded folks who want to support detox and circulation",
+            // "Athletes or active individuals seeking faster recovery",
+          ].map((b) => (
+            <li key={b} className="text-[#333] text-[18px] leading-[25px]">
+              {b}
+            </li>
           ))}
-        </ul> */}
+        </ul>
       </>
     ),
   },
@@ -584,81 +592,99 @@ export default function App() {
             {/* Description */}
             <div className="flex flex-col gap-0 w-full text-justify">
               <p className="text-[#333] text-[18px] leading-[25px]">
-                Welcome to Holistic Therapy Massage, licensed massage therapist
-                by Thu Miller, located in Village Park, building 100, suite 120,
-                31800 Northwestern Hwy, Farmington Hills, MI 48334. At Holistic
-                Therapy, I offer personalized treatment plans tailored to meet
-                your unique needs and preferences. By combining Eastern massage
-                therapy techniques with Western practices, my treatments aim to
-                provide the ultimate therapeutic healing experience.
+                Welcome to Holistic Therapy Massage. My name is Thu Miller, and
+                I am a licensed massage therapist.
               </p>
               <p className="text-[#333] text-[18px] leading-[25px] mt-[25px]">
-                These sessions are designed to balance your body's energy
-                pathways, stimulate natural healing, alleviate pain, and help
-                you feel renewed.
+                After a 12-year career as a professional project manager, my own
+                health challenges—including cervical osteoarthritis,
+                fibromyalgia, and chronic stress—led me to discover the
+                transformative benefits of therapeutic massage.<br></br>
+                This experience inspired me to establish Holistic Therapy
+                Massage, where I specialize in medical therapeutic massage
+                rather than standard relaxation treatments.
+              </p>
+              <p className="text-[#333] text-[18px] leading-[25px] mt-[25px]">
+                Whether you work in the service industry, spend long hours at a
+                desk, perform physical labor, drive long distances, or engage in
+                regular sports, these daily demands take a toll on your body. If
+                you are dealing with chronic pain, limited mobility, or need a
+                personalized treatment plan for post-surgery or pregnancy care,
+                my mission is to help you manage pain and improve your overall
+                well-being.
+              </p>
+              <p className="text-[#333] text-[18px] leading-[25px] mt-[25px]">
+                I offer personalized treatment plans tailored to your unique
+                needs. By combining Eastern and Western massage techniques, my
+                sessions are designed to balance your body's energy pathways,
+                stimulate natural healing, alleviate pain, and restore mobility.
+              </p>
+              <p className="text-[#333] text-[18px] leading-[25px] mt-[25px]">
+                I look forward to supporting you on your health and wellness
+                journey.
               </p>
             </div>
 
             {/* Image collage — faithful to original grid layout */}
+            <div
+              className="relative"
+              style={{ height: "430px", width: "100%", maxWidth: "500px" }}
+            >
+              {/* Large image — top-left, 269 × 326 */}
               <div
-                className="relative"
-                style={{ height: "430px", width: "100%", maxWidth: "500px" }}
+                className="absolute bg-white rounded-[12px] overflow-hidden shadow-lg"
+                style={{ top: 0, left: 0, width: "269px", height: "326px" }}
               >
-                {/* Large image — top-left, 269 × 326 */}
-                <div
-                  className="absolute bg-white rounded-[12px] overflow-hidden shadow-lg"
-                  style={{ top: 0, left: 0, width: "269px", height: "326px" }}
-                >
-                  <img
-                    alt="Massage therapy"
-                    src={imgAboutMain}
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                </div>
-
-                {/* Pink border box — offset from top-left of grid */}
-                <div
-                  className="absolute border-[3px] border-[#e83e93] rounded-[20px]"
-                  style={{
-                    top: "24%",
-                    left: "24%",
-                    width: "213px",
-                    height: "263px",
-                  }}
+                <img
+                  alt="Massage therapy"
+                  src={imgAboutMain}
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
-
-                {/* Blur glow */}
-                <div
-                  className="absolute rounded-full"
-                  style={{
-                    top: "147px",
-                    left: "103px",
-                    width: "168px",
-                    height: "186px",
-                    background: "rgba(177,135,63,0.23)",
-                    filter: "blur(50px)",
-                  }}
-                />
-
-                {/* Second image — offset 130 × 174 */}
-                {/* top: "40%" */}
-                <div
-                  className="absolute bg-white rounded-[12px] overflow-hidden shadow-xl"
-                  style={{
-                    bottom: "20px",
-                    left: "32%",
-                    width: "224px",
-                    height: "248px",
-                    zIndex: 10,
-                  }}
-                >
-                  <img
-                    alt="Relaxing massage session"
-                    src={imgAboutSecond}
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                </div>
               </div>
+
+              {/* Pink border box — offset from top-left of grid */}
+              <div
+                className="absolute border-[3px] border-[#e83e93] rounded-[20px]"
+                style={{
+                  top: "24%",
+                  left: "24%",
+                  width: "213px",
+                  height: "263px",
+                }}
+              />
+
+              {/* Blur glow */}
+              <div
+                className="absolute rounded-full"
+                style={{
+                  top: "147px",
+                  left: "103px",
+                  width: "168px",
+                  height: "186px",
+                  background: "rgba(177,135,63,0.23)",
+                  filter: "blur(50px)",
+                }}
+              />
+
+              {/* Second image — offset 130 × 174 */}
+              {/* top: "40%" */}
+              <div
+                className="absolute bg-white rounded-[12px] overflow-hidden shadow-xl"
+                style={{
+                  bottom: "20px",
+                  left: "32%",
+                  width: "224px",
+                  height: "248px",
+                  zIndex: 10,
+                }}
+              >
+                <img
+                  alt="Relaxing massage session"
+                  src={imgAboutSecond}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
 
           {/* ══ OUR SERVICES ══ */}
