@@ -488,7 +488,9 @@ export default function App() {
       </div>
 
       {/* ── Outer centering shell ── */}
-      <div className="w-full max-w-[402px] mx-auto flex flex-col shadow-xl">
+      {/* max-w-[402px] */}
+      <div className="w-full mx-auto flex flex-col">
+      {/* <div className="w-full max-w-[402px] mx-auto flex flex-col shadow-xl"> */}
         {/* ══ HEADING (header bar) ══ */}
         <div className="bg-[#1e726f] px-[24px] py-[16px] flex flex-col gap-[8px] w-full">
           <div className="flex items-center gap-[8px]">
